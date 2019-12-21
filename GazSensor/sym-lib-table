@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name MyComponents)(type Legacy)(uri /home/vlaurens/Documents/5ISS/kicad/GazSensor/MyComponents.lib)(options "")(descr ""))
+  (lib (name GazSensor-rescue)(type Legacy)(uri ${KIPRJMOD}/GazSensor-rescue.lib)(options "")(descr ""))
+)
