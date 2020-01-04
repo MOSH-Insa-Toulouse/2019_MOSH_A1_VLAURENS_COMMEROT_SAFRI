@@ -38,18 +38,20 @@ Pour cela nous avons implémenté un montage sugéré par Monsieur Noullet (http
 
 Nous avons ensuite à l'aide kicad conçu une carte pouvant se gréffer à la carte Arduino Uno et comportant le capteur de gaz et l'antenne LORA.
 
-
 <figure class="image">
-  <img src="./kicadElecScheme.png" alt="LTSpice scheme">
+  <img src="./3dbackground" alt="LTSpice scheme">
   <figcaption>Figure 1 : LTSpice scheme</figcaption>
 </figure>
 
 <figure class="image">
-  <img src="./.png" alt="LTSpice scheme">
+  <img src="./3dfrontground" alt="LTSpice scheme">
   <figcaption>Figure 1 : LTSpice scheme</figcaption>
 </figure>
 
+Un aperçu du routage
+
 <figure class="image">
-  <img src="./kicadElecScheme.png" alt="LTSpice scheme">
+  <img src="./kicadwithground.png" alt="LTSpice scheme">
   <figcaption>Figure 1 : LTSpice scheme</figcaption>
 </figure>
+
