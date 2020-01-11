@@ -1,14 +1,14 @@
 (export (version D)
   (design
     (source /home/vlaurens/Documents/5ISS/kicad/GazSensor/GazSensor.sch)
-    (date "sam. 28 déc. 2019 16:19:01 CET")
+    (date "sam. 11 janv. 2020 17:12:53 CET")
     (tool "Eeschema 5.0.2-bee76a0~70~ubuntu18.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
-        (title "GAZ Sensor qheild")
+        (title "GAZ Sensor sheild")
         (company "INSA of Toulouse")
         (rev)
-        (date "lun. 30 mars 2015")
+        (date "lun. 6 junary 2019")
         (source GazSensor.sch)
         (comment (number 1) (value "Vincent Laurens"))
         (comment (number 2) (value "Mickaël Commérot"))
