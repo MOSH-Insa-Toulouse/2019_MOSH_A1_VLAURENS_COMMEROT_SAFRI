@@ -98,3 +98,6 @@ Enfin nous pourrions représenter en vue 3D le capteur de Gaz ansi que le module
 
 Au cours de ces TP nous avons eu l'occassion de programmer sur un Arduino.
 Nous avons également appris à concevoir une carte électronique de bout en bout.
+Ce module nous a appris à créer un capteur et à lui ajouter une certaine "intelligence" afin qu'il soit autônome
+et puisse communiquer avec d'autres entité d'un système.
+Nous avons réutilisé ces connaissances dans notre projet intégrateur durant lequel nous avons développé un module de capteurs intelligent pour surveiller la consommation d'énergie d'une douche.
