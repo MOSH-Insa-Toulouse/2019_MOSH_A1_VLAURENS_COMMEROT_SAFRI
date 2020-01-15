@@ -4,7 +4,7 @@
  <img src="./LogoISS.png" alt="drawing" width="100" style="float:right"/>
  </header>
  <h1 style="text-align:center" >2019_MOSH_A1_VLAURENS_COMMEROT_SAFRI</h1>
-<a href=".README_EN.md">Version Anglaise du README</a>
+<a href="./README_EN.md">Version Anglaise du README</a>
 
  ## Contenu
 
