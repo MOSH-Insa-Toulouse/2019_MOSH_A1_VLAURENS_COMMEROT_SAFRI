@@ -96,8 +96,7 @@ Un aperçu du routage
 
 # Pistes d'amélioration
 
-Une piste sérieuse à améliorer serait de revoir la conception des compsants de base tels que les capacités car pour respecter les containtes de conception de l'INSA nous avons du modifier la taille des "PAD" et donc les faire se chevaucher.
-Enfin nous pourrions représenter en vue 3D le capteur de Gaz ansi que le module lora et l'AOP.
+Une piste sérieuse à améliorer serait d'ajouter des entrée pour prévoir une source d'alimentation au capteur afin qu'il soit autonôme. Une autre piste serait de créer le composent AOP en vue 3D. Enfin corrigé quelque problèmes de "pad near to pad" qui sont du au contarainte de taille de pad mposé par l'INSA et font que pour les capacité les pads se chevauche. 
 
 # Conclusion
 
