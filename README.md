@@ -50,11 +50,15 @@ Pour ce faire nous avons implémenté via
 
 <figure class="image">
   <img src="./images/kicadElecScheme.png" alt="LTSpice scheme">
+  <img src="./images/GazSensor.png" alt="GazSensor">
   <figcaption>Figure 2 : EESCHEMA representation</figcaption>
 </figure>
-Nous avons tout d'abord, débuté par réaliser le circuit électronique. Il nous a donc fallu créer les composant électrique et les connecter entre-eux suivant le schéma de la figure 1.
+
+Nous avons tout d'abord, débuté par réaliser le circuit électronique. Il nous a donc fallu créer les composant électrique dont le premier que nous avons créé est le capteur de gaz et ses connecteur, ensuite nous les connecter entre-eux suivant le schéma de la figure 1.
 Nous avons ensuite à l'aide de label lié les entrées et sortie de notre montage avec les PINs du module LORA que nous avons conçu, et les PINs de l'Arduino.
 Ensuite nous avons vérifié les règles de routage afin de vérifié s'il n'ya vait pas de contradictions électriques.
+
+
 
 Une fois le schéma électrique réalisé et vérifié, nous avons créé une empreinte pour chaque composant, notament pour le capteur de Gaz, le module Lora et l'ampli Opérationel. 
 Enfin nous avons pu les router, les connecter comme illustré sur la figure 3.
