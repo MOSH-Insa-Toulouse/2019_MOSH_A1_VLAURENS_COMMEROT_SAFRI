@@ -597,8 +597,6 @@ Wire Wire Line
 	6500 750  6500 1600
 Wire Wire Line
 	5950 750  6500 750 
-Wire Wire Line
-	2400 3300 2200 3300
 $Comp
 L power:PWR_FLAG #FLG0103
 U 1 1 5E00A427
@@ -680,17 +678,6 @@ Wire Wire Line
 Wire Wire Line
 	5950 2500 5950 2350
 Connection ~ 5950 2350
-$Comp
-L Device:R RSensor101
-U 1 1 5DFFA45E
-P 2050 3300
-F 0 "RSensor101" V 2257 3300 50  0000 C CNN
-F 1 "R" V 2166 3300 50  0000 C CNN
-F 2 "MyComponents:GazSensor" V 1980 3300 50  0001 C CNN
-F 3 "~" H 2050 3300 50  0001 C CNN
-	1    2050 3300
-	0    -1   -1   0   
-$EndComp
 $Comp
 L Device:R RCal2
 U 1 1 5E07BF0B
@@ -836,9 +823,7 @@ Text Label 5850 5900 2    50   ~ 0
 GazSensorRight_Pin4
 Text Label 5850 5550 2    50   ~ 0
 GazSensorLeft_Pin9
-Wire Wire Line
-	1900 3300 1150 3300
-Text Label 1150 3300 0    50   ~ 0
+Text Label 1600 3300 0    50   ~ 0
 linkCircuit
 Text Label 5800 4350 2    50   ~ 0
 linkCircuit
@@ -855,4 +840,6 @@ F 3 "" H 5750 5700 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5750 5700 4900 5700
+Wire Wire Line
+	2400 3300 1600 3300
 $EndSCHEMATC
