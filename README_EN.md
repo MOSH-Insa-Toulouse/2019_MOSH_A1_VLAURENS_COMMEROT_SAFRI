@@ -36,6 +36,7 @@ To do this we implemented an assembly (https://noullet-gei.gitlab.io/iss_analog/
 
 <figure class="image">
   <img src="./images/schemaGazElectric.png" alt="LTSpice scheme">
+  <img src="./images/GazSensor.png" alt="Gaz sensor">
   <figcaption>Figure 2 : Wiring diagram of sensor data acquisition</figcaption>
 </figure>
 
@@ -46,7 +47,7 @@ We then used kicad to design a card that could be attached to the Arduino Uno ca
   <img src="./images/kicadElecScheme.png" alt="LTSpice scheme">
   <figcaption>Figure 2 : EESCHEMA representation</figcaption>
 </figure>
-We started by making the electronic circuit. We then had to create the electrical components and connect them together according to the diagram in figure 1. We then linked the inputs and outputs of our assembly with the PINs of the LORA module we designed, and the PINs of the Arduino. Then we checked the routing rules in order to verify if there are no electrical contradictions.
+We started by making the electronic circuit. We then had to create the electrical components, we start to create gaz sensor and these connectors. Then we connect them together according to the diagram in figure 1. We then linked the inputs and outputs of our assembly with the PINs of the LORA module we designed, and the PINs of the Arduino. Then we checked the routing rules in order to verify if there are no electrical contradictions.
 
 
 Once the electrical schematic was done and checked, we created a footprint for each component, including the gas sensor, the Lora module and the operational amplifier. Finally we were able to route and connect them as shown in figure 3.
