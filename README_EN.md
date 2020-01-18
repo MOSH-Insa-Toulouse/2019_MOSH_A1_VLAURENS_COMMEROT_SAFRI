@@ -86,7 +86,7 @@ An overview of routing
 
 # Pistes d'amélioration
 
-One serious avenue for improvement would be to review the design of the basic components such as the capabilities because to meet the NHI's design constraints we had to modify the size of the "CSAs" and thus make them overlap. Finally we could represent in 3D view the gas sensor as well as the lora module and the PDO.
+A serious avenue for improvement would be to add inputs to provide a power source to the sensor so that it is self-doming. Another track would be to create the AOP component in 3D view. Finally fixed some "pad near to pad" problems that are due to the pad size contours imposed by INSA and cause the pads to overlap for capacity. 
 
 # Conclusion
 
