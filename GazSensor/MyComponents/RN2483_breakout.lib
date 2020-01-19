@@ -1,15 +1,15 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# RN2483_breakout-MyComponents
+# RN2483_breakout
 #
-DEF RN2483_breakout-MyComponents U 0 40 Y Y 1 F N
+DEF RN2483_breakout U 0 40 Y Y 1 F N
 F0 "U" 0 0 50 H V C CNN
-F1 "RN2483_breakout-MyComponents" 0 0 50 H V C CNN
+F1 "RN2483_breakout" 0 0 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
-S -700 -150 550 -550 0 1 0 N
+S -700 -150 550 -550 0 1 0 f
 X TX 1 -600 -600 200 U 50 50 1 1 B
 X RX 2 -450 -600 200 U 50 50 1 1 B
 X C75 3 -300 -600 200 U 50 50 1 1 B
