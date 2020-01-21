@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:GazSensor-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -217,8 +216,6 @@ Wire Wire Line
 	9050 2000 9050 1350
 Wire Wire Line
 	9150 1900 9150 1450
-Wire Wire Line
-	9400 2500 8900 2500
 Wire Wire Line
 	9400 2600 8900 2600
 Wire Wire Line
@@ -691,17 +688,6 @@ Connection ~ 2600 5450
 Wire Wire Line
 	2600 5450 2650 5450
 $Comp
-L power:GND #PWR0115
-U 1 1 5E240ADC
-P 3150 4600
-F 0 "#PWR0115" H 3150 4350 50  0001 C CNN
-F 1 "GND" V 3155 4472 50  0000 R CNN
-F 2 "" H 3150 4600 50  0001 C CNN
-F 3 "" H 3150 4600 50  0001 C CNN
-	1    3150 4600
-	0    -1   -1   0   
-$EndComp
-$Comp
 L Connector_Generic:Conn_01x03 J102
 U 1 1 5E24510F
 P 4900 5250
@@ -712,8 +698,6 @@ F 3 "~" H 4900 5250 50  0001 C CNN
 	1    4900 5250
 	0    -1   -1   0   
 $EndComp
-NoConn ~ 1650 4500
-NoConn ~ 1650 4600
 Text Label 850  4800 0    50   ~ 0
 GazSensorLeft_Pin7
 Text Label 850  4900 0    50   ~ 0
@@ -790,17 +774,6 @@ F 3 "" H 5750 5700 50  0001 C CNN
 	1    5750 5700
 	0    1    1    0   
 $EndComp
-$Comp
-L power:+5V #PWR0116
-U 1 1 5E248F8E
-P 3150 4500
-F 0 "#PWR0116" H 3150 4350 50  0001 C CNN
-F 1 "+5V" H 3165 4673 50  0000 C CNN
-F 2 "" H 3150 4500 50  0001 C CNN
-F 3 "" H 3150 4500 50  0001 C CNN
-	1    3150 4500
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3400 3300 4400 3300
 Wire Wire Line
@@ -831,11 +804,52 @@ $Comp
 L LTC1050:LTC1050 U103
 U 1 1 5E27AAB2
 P 5500 2400
-F 0 "U103" H 5200 2815 50  0000 C CNN
-F 1 "LTC1050" H 5200 2724 50  0000 C CNN
-F 2 "MyComponents:LTC1050" H 5500 2400 50  0001 C CNN
+F 0 "U103" H 5200 2200 50  0000 C CNN
+F 1 "LTC1050" H 5250 2300 50  0000 C CNN
+F 2 "Package_DIP:DIP-8_W7.62mm_LongPads" H 5500 2400 50  0001 C CNN
 F 3 "" H 5500 2400 50  0001 C CNN
 	1    5500 2400
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	9400 2500 8550 2500
+Wire Wire Line
+	8550 1400 8550 2500
+Wire Wire Line
+	7700 1400 8150 1400
+Text Label 7700 1400 0    50   ~ 0
+TempSensor
+$Comp
+L Device:R R101
+U 1 1 5E28B7B2
+P 8150 1700
+F 0 "R101" H 8220 1746 50  0000 L CNN
+F 1 "R" H 8220 1655 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 8080 1700 50  0001 C CNN
+F 3 "~" H 8150 1700 50  0001 C CNN
+	1    8150 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0115
+U 1 1 5E28B8B1
+P 8150 2000
+F 0 "#PWR0115" H 8150 1750 50  0001 C CNN
+F 1 "GND" H 8155 1827 50  0000 C CNN
+F 2 "" H 8150 2000 50  0001 C CNN
+F 3 "" H 8150 2000 50  0001 C CNN
+	1    8150 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8150 2000 8150 1850
+Wire Wire Line
+	8150 1550 8150 1400
+Connection ~ 8150 1400
+Wire Wire Line
+	8150 1400 8550 1400
+Wire Wire Line
+	1650 4600 850  4600
+Text Label 850  4600 0    50   ~ 0
+TempSensor
 $EndSCHEMATC
